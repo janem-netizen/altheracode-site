@@ -1,0 +1,153 @@
+# Конфігурація панелі редагування Pages CMS (app.pagescms.org).
+# Цей файл описує, які поля ви бачите в браузері. Сам текст лежить у content.json.
+
+media:
+  input: media          # сюди завантажуються картинки в панелі
+  output: /media        # так на них посилається сайт
+
+content:
+  - name: site
+    label: Зміст сайту
+    type: file
+    path: content.json
+    fields:
+      # --- БРЕНД ---
+      - { name: brand_name, label: "Назва бренду", type: string }
+      - { name: logo_letter, label: "Літера в логотипі", type: string }
+
+      # --- ГЕРОЙ (головний банер) ---
+      - { name: hero_title_start, label: "Заголовок — початок", type: string }
+      - { name: hero_title_accent, label: "Заголовок — виділене слово (мʼятним)", type: string }
+      - { name: hero_title_end, label: "Заголовок — кінець", type: string }
+      - { name: hero_text, label: "Текст під заголовком", type: text }
+      - { name: hero_button_primary, label: "Кнопка головна (текст)", type: string }
+      - { name: hero_button_secondary, label: "Кнопка друга (текст)", type: string }
+
+      - { name: trust_logos, label: "Технології під банером (список)", type: string, list: true }
+
+      # --- ПОСЛУГИ ---
+      - { name: services_eyebrow, label: "Послуги — підпис зверху", type: string }
+      - { name: services_title, label: "Послуги — заголовок", type: string }
+      - { name: services_lead, label: "Послуги — опис", type: text }
+      - name: services
+        label: "Послуги (картки)"
+        type: object
+        list: true
+        fields:
+          - { name: icon, label: "Іконка (емодзі)", type: string }
+          - { name: title, label: "Назва", type: string }
+          - { name: text, label: "Опис", type: text }
+
+      # --- ЕКСПЕРТИЗА ---
+      - { name: expertise_eyebrow, label: "Експертиза — підпис зверху", type: string }
+      - { name: expertise_title, label: "Експертиза — заголовок", type: string }
+      - { name: expertise_lead, label: "Експертиза — опис", type: text }
+      - { name: expertise_primary_title, label: "Підзаголовок списку 1", type: string }
+      - { name: expertise_primary, label: "Список 1", type: string, list: true }
+      - { name: expertise_secondary_title, label: "Підзаголовок списку 2", type: string }
+      - { name: expertise_secondary, label: "Список 2", type: string, list: true }
+
+      # --- ПОРТФОЛІО ---
+      - { name: portfolio_eyebrow, label: "Портфоліо — підпис зверху", type: string }
+      - { name: portfolio_title, label: "Портфоліо — заголовок", type: string }
+      - { name: portfolio_lead, label: "Портфоліо — опис", type: text }
+      - name: portfolio
+        label: "Кейси портфоліо"
+        type: object
+        list: true
+        fields:
+          - { name: category, label: "Категорія", type: string }
+          - { name: title, label: "Назва кейсу", type: string }
+          - { name: text, label: "Опис", type: text }
+          - { name: tag, label: "Бейдж (напр. Under NDA)", type: string }
+          - { name: glyph, label: "Символ на картинці", type: string }
+          - name: theme
+            label: "Колір картинки"
+            type: select
+            options:
+              values: ["", "v2", "v3"]
+
+      # --- ЧОМУ МИ ---
+      - { name: why_eyebrow, label: "Чому ми — підпис зверху", type: string }
+      - { name: why_title, label: "Чому ми — заголовок", type: string }
+      - name: why
+        label: "Переваги (картки)"
+        type: object
+        list: true
+        fields:
+          - { name: icon, label: "Іконка (емодзі)", type: string }
+          - { name: title, label: "Назва", type: string }
+          - { name: text, label: "Опис", type: text }
+
+      # --- ПРОЦЕС ---
+      - { name: process_eyebrow, label: "Процес — підпис зверху", type: string }
+      - { name: process_title, label: "Процес — заголовок", type: string }
+      - { name: process_lead, label: "Процес — опис", type: text }
+      - name: process
+        label: "Кроки процесу (нумеруються самі)"
+        type: object
+        list: true
+        fields:
+          - { name: title, label: "Назва кроку", type: string }
+          - { name: text, label: "Опис", type: text }
+
+      # --- ТЕХ-СТЕК ---
+      - { name: stack_title, label: "Тех-стек — заголовок", type: string }
+      - name: stack
+        label: "Технології (плашки)"
+        type: object
+        list: true
+        fields:
+          - { name: name, label: "Назва", type: string }
+          - { name: color, label: "Колір крапки (hex, напр. #F58219)", type: string }
+
+      # --- CTA-СМУГА ---
+      - { name: cta_title, label: "CTA — заголовок", type: string }
+      - { name: cta_text, label: "CTA — текст", type: text }
+      - { name: cta_button, label: "CTA — кнопка", type: string }
+
+      # --- FAQ ---
+      - { name: faq_eyebrow, label: "FAQ — підпис зверху", type: string }
+      - { name: faq_title, label: "FAQ — заголовок", type: string }
+      - name: faq
+        label: "Питання та відповіді"
+        type: object
+        list: true
+        fields:
+          - { name: q, label: "Питання", type: string }
+          - { name: a, label: "Відповідь", type: text }
+
+      # --- КОНТАКТИ ---
+      - { name: contact_eyebrow, label: "Контакти — підпис зверху", type: string }
+      - { name: contact_title, label: "Контакти — заголовок", type: string }
+      - { name: contact_text, label: "Контакти — текст", type: text }
+      - { name: contact_email, label: "E-mail", type: string }
+      - { name: contact_phone, label: "Телефон", type: string }
+      - { name: contact_whatsapp, label: "WhatsApp", type: string }
+      - { name: formspree_id, label: "ID форми Formspree (для листів)", type: string }
+
+      # --- ФУТЕР ---
+      - { name: footer_tagline, label: "Футер — короткий опис", type: text }
+      - name: socials
+        label: "Соцмережі"
+        type: object
+        list: true
+        fields:
+          - { name: label, label: "Підпис (2 літери)", type: string }
+          - { name: href, label: "Посилання", type: string }
+      - { name: footer_services, label: "Футер — список послуг", type: string, list: true }
+      - name: footer_company
+        label: "Футер — меню «Компанія»"
+        type: object
+        list: true
+        fields:
+          - { name: label, label: "Текст", type: string }
+          - { name: href, label: "Посилання", type: string }
+      - name: locations
+        label: "Адреси офісів"
+        type: object
+        list: true
+        fields:
+          - { name: name, label: "Назва", type: string }
+          - { name: address, label: "Адреса", type: text }
+      - { name: copyright, label: "Копірайт", type: string }
