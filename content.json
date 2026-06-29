@@ -1,106 +1,264 @@
 {
   "brand_name": "AltheraCode",
-  "logo_letter": "A",
-
+  "logo_letter": "Ab",
   "hero_title_start": "Innovative ",
   "hero_title_accent": "custom software",
   "hero_title_end": " development company",
   "hero_text": "At AltheraCode, we craft software solutions tailored to your business needs. From concept to launch, our team perfects every detail to drive your success and scalability. Let's create something extraordinary together.",
   "hero_button_primary": "Book a Call",
   "hero_button_secondary": "View our work",
-
-  "trust_logos": ["Java", "Python", "JavaScript", "React", "Node.js", ".NET", "AWS"],
-
+  "trust_logos": [
+    "Java",
+    "Python",
+    "JavaScript",
+    "React",
+    "Node.js",
+    ".NET",
+    "AWS"
+  ],
   "services_eyebrow": "Services We Provide",
   "services_title": "What we build for you",
   "services_lead": "As a dedicated software development partner, we specialize in custom AI-powered solutions — smart, scalable products across industries. We bring ideas to life and deliver value that opens doors to new opportunities.",
   "services": [
-    { "icon": "🧭", "title": "Product Development", "text": "End-to-end product builds from discovery to a launch-ready solution." },
-    { "icon": "🤖", "title": "AI Development", "text": "Custom AI assistants, copilots, chatbots and agents tailored to your workflows." },
-    { "icon": "📱", "title": "Web & Mobile Apps", "text": "Fast, reliable web and mobile applications built to scale with your users." },
-    { "icon": "⚙️", "title": "Process Automation", "text": "Business and intelligent process automation that streamlines operations." },
-    { "icon": "🚀", "title": "For Startups", "text": "Startup-level speed with strong engineering — from MVP to product-market fit." },
-    { "icon": "🧩", "title": "Dedicated Teams", "text": "A full-time, dedicated team working exclusively on your project." }
+    {
+      "icon": "🧭",
+      "title": "Product Development",
+      "text": "End-to-end product builds from discovery to a launch-ready solution."
+    },
+    {
+      "icon": "🤖",
+      "title": "AI Development",
+      "text": "Custom AI assistants, copilots, chatbots and agents tailored to your workflows."
+    },
+    {
+      "icon": "📱",
+      "title": "Web & Mobile Apps",
+      "text": "Fast, reliable web and mobile applications built to scale with your users."
+    },
+    {
+      "icon": "⚙️",
+      "title": "Process Automation",
+      "text": "Business and intelligent process automation that streamlines operations."
+    },
+    {
+      "icon": "🚀",
+      "title": "For Startups",
+      "text": "Startup-level speed with strong engineering — from MVP to product-market fit."
+    },
+    {
+      "icon": "🧩",
+      "title": "Dedicated Teams",
+      "text": "A full-time, dedicated team working exclusively on your project."
+    }
   ],
-
   "expertise_eyebrow": "Our Expertise",
   "expertise_title": "Deep domain knowledge",
   "expertise_lead": "We provide top-tier healthcare software but go beyond to deliver cutting-edge AI and SaaS products. Whether you're transforming patient care or building groundbreaking platforms, we turn your vision into reality.",
   "expertise_primary_title": "Our expertise covers",
   "expertise_primary": [
-    "EHR / EMR Development", "Telehealth Solutions", "Healthcare IoT",
-    "Remote Patient Monitoring", "Dental Software", "Software for Medical Devices",
-    "Revenue Cycle Management", "Telemedicine Apps", "Medical Claims"
+    "EHR / EMR Development",
+    "Telehealth Solutions",
+    "Healthcare IoT",
+    "Remote Patient Monitoring",
+    "Dental Software",
+    "Software for Medical Devices",
+    "Revenue Cycle Management",
+    "Telemedicine Apps",
+    "Medical Claims"
   ],
   "expertise_secondary_title": "Additional expertise",
   "expertise_secondary": [
-    "AI / ML Technologies", "Data Analytics", "Cloud Solutions",
-    "mHealth App Development", "Digital Therapeutics", "Healthcare Integrations"
+    "AI / ML Technologies",
+    "Data Analytics",
+    "Cloud Solutions",
+    "mHealth App Development",
+    "Digital Therapeutics",
+    "Healthcare Integrations"
   ],
-
   "portfolio_eyebrow": "Our Portfolio",
   "portfolio_title": "Software that solves real challenges",
   "portfolio_lead": "We create smart, scalable solutions across industries — optimizing workflows and enhancing efficiency.",
   "portfolio": [
-    { "category": "Knowledge Management", "title": "AI Audio Intelligence Pipeline", "text": "An n8n-powered workflow that turns raw MP3 recordings into structured executive summaries, auto-published to Notion.", "tag": "Under NDA", "glyph": "AI", "theme": "" },
-    { "category": "Communication Tech", "title": "AI Telegram Assistant", "text": "A ChatGPT-powered Telegram assistant for instant AI conversations and scalable real-time communication.", "tag": "Under NDA", "glyph": "TG", "theme": "v2" },
-    { "category": "Media", "title": "Real-Time Insight Engine", "text": "An automated AI workflow that filters, summarizes and delivers personalized insights from high-volume streams.", "tag": "Under NDA", "glyph": "∞", "theme": "v3" },
-    { "category": "Media", "title": "Viral Content Automation Engine", "text": "An AI system that generates, organizes and scales viral-ready video concepts with minimal manual coordination.", "tag": "Under NDA", "glyph": "▶", "theme": "v2" },
-    { "category": "Healthcare", "title": "AI Voice Assistant for Claims", "text": "Automated eligibility verification, claim-status support and healthcare call-center operations.", "tag": "Under NDA", "glyph": "☎", "theme": "" },
-    { "category": "Manufacturing", "title": "Manufacturing Operations Platform", "text": "An AI platform coordinating sales, procurement, operations and finance inside a live manufacturing environment.", "tag": "Under NDA", "glyph": "⚙", "theme": "v3" }
+    {
+      "category": "Knowledge Management",
+      "title": "AI Audio Intelligence Pipeline",
+      "text": "An n8n-powered workflow that turns raw MP3 recordings into structured executive summaries, auto-published to Notion.",
+      "tag": "Under NDA",
+      "glyph": "AI"
+    },
+    {
+      "category": "Communication Tech",
+      "title": "AI Telegram Assistant",
+      "text": "A ChatGPT-powered Telegram assistant for instant AI conversations and scalable real-time communication.",
+      "tag": "Under NDA",
+      "glyph": "TG",
+      "theme": "v2"
+    },
+    {
+      "category": "Media",
+      "title": "Real-Time Insight Engine",
+      "text": "An automated AI workflow that filters, summarizes and delivers personalized insights from high-volume streams.",
+      "tag": "Under NDA",
+      "glyph": "∞",
+      "theme": "v3"
+    },
+    {
+      "category": "Media",
+      "title": "Viral Content Automation Engine",
+      "text": "An AI system that generates, organizes and scales viral-ready video concepts with minimal manual coordination.",
+      "tag": "Under NDA",
+      "glyph": "▶",
+      "theme": "v2"
+    },
+    {
+      "category": "Healthcare",
+      "title": "AI Voice Assistant for Claims",
+      "text": "Automated eligibility verification, claim-status support and healthcare call-center operations.",
+      "tag": "Under NDA",
+      "glyph": "☎"
+    },
+    {
+      "category": "Manufacturing",
+      "title": "Manufacturing Operations Platform",
+      "text": "An AI platform coordinating sales, procurement, operations and finance inside a live manufacturing environment.",
+      "tag": "Under NDA",
+      "glyph": "⚙",
+      "theme": "v3"
+    }
   ],
-
   "why_eyebrow": "Why Choose AltheraCode",
   "why_title": "Expert development & AI solutions",
   "why": [
-    { "icon": "🎯", "title": "Tailored Expertise", "text": "Dedicated teams with deep industry knowledge, so your project benefits from specialized skills." },
-    { "icon": "🌀", "title": "Unmatched Flexibility", "text": "An agile approach that adapts to your needs and delivers AI-driven solutions that grow with you." },
-    { "icon": "📈", "title": "Proven Results", "text": "From startups to enterprises, we help clients achieve goals with scalable, high-quality software." },
-    { "icon": "🤝", "title": "Transparent Partnership", "text": "Open communication and collaboration — you stay involved and informed every step of the way." },
-    { "icon": "💡", "title": "Commitment to Innovation", "text": "Driven by a passion for technology, we craft cutting-edge solutions that help businesses thrive." },
-    { "icon": "🛟", "title": "End-to-End Support", "text": "From concept to launch and beyond — a seamless experience with reliable post-launch support." }
+    {
+      "icon": "🎯",
+      "title": "Tailored Expertise",
+      "text": "Dedicated teams with deep industry knowledge, so your project benefits from specialized skills."
+    },
+    {
+      "icon": "🌀",
+      "title": "Unmatched Flexibility",
+      "text": "An agile approach that adapts to your needs and delivers AI-driven solutions that grow with you."
+    },
+    {
+      "icon": "📈",
+      "title": "Proven Results",
+      "text": "From startups to enterprises, we help clients achieve goals with scalable, high-quality software."
+    },
+    {
+      "icon": "🤝",
+      "title": "Transparent Partnership",
+      "text": "Open communication and collaboration — you stay involved and informed every step of the way."
+    },
+    {
+      "icon": "💡",
+      "title": "Commitment to Innovation",
+      "text": "Driven by a passion for technology, we craft cutting-edge solutions that help businesses thrive."
+    },
+    {
+      "icon": "🛟",
+      "title": "End-to-End Support",
+      "text": "From concept to launch and beyond — a seamless experience with reliable post-launch support."
+    }
   ],
-
   "process_eyebrow": "Our Process",
   "process_title": "From concept to launch",
   "process_lead": "We transform concepts into powerful, AI-driven innovations — guiding you from ideation to launch with seamless execution and cutting-edge results.",
   "process": [
-    { "title": "Discovery & Analysis", "text": "We start by understanding your business needs, challenges and goals through research and consultation." },
-    { "title": "Strategy & Planning", "text": "A tailored roadmap with clear milestones, timelines and deliverables for a smooth process." },
-    { "title": "Design & Prototyping", "text": "Intuitive, user-focused designs and interactive prototypes before development begins." },
-    { "title": "Agile Development", "text": "Scalable, secure solutions built in sprints with continuous feedback and improvements." },
-    { "title": "Testing & QA", "text": "Rigorous, AI-assisted testing for top performance, usability and security." },
-    { "title": "Deployment & Launch", "text": "A seamless launch with full support during the transition to live operation." },
-    { "title": "Post-Launch Support", "text": "Ongoing support, maintenance and updates to keep your solution running at its best." }
+    {
+      "title": "Discovery & Analysis",
+      "text": "We start by understanding your business needs, challenges and goals through research and consultation."
+    },
+    {
+      "title": "Strategy & Planning",
+      "text": "A tailored roadmap with clear milestones, timelines and deliverables for a smooth process."
+    },
+    {
+      "title": "Design & Prototyping",
+      "text": "Intuitive, user-focused designs and interactive prototypes before development begins."
+    },
+    {
+      "title": "Agile Development",
+      "text": "Scalable, secure solutions built in sprints with continuous feedback and improvements."
+    },
+    {
+      "title": "Testing & QA",
+      "text": "Rigorous, AI-assisted testing for top performance, usability and security."
+    },
+    {
+      "title": "Deployment & Launch",
+      "text": "A seamless launch with full support during the transition to live operation."
+    },
+    {
+      "title": "Post-Launch Support",
+      "text": "Ongoing support, maintenance and updates to keep your solution running at its best."
+    }
   ],
-
   "stack_title": "Tools we build with",
   "stack": [
-    { "name": "Java", "color": "#F58219" },
-    { "name": "Python", "color": "#FFC331" },
-    { "name": "JavaScript", "color": "#F7DF1E" },
-    { "name": "C#", "color": "#5C2D91" },
-    { "name": "PHP", "color": "#368FD8" },
-    { "name": "Node.js", "color": "#83CD29" },
-    { "name": "React", "color": "#61DAFB" },
-    { "name": "AWS", "color": "#FF9900" }
+    {
+      "name": "Java",
+      "color": "#F58219"
+    },
+    {
+      "name": "Python",
+      "color": "#FFC331"
+    },
+    {
+      "name": "JavaScript",
+      "color": "#F7DF1E"
+    },
+    {
+      "name": "C#",
+      "color": "#5C2D91"
+    },
+    {
+      "name": "PHP",
+      "color": "#368FD8"
+    },
+    {
+      "name": "Node.js",
+      "color": "#83CD29"
+    },
+    {
+      "name": "React",
+      "color": "#61DAFB"
+    },
+    {
+      "name": "AWS",
+      "color": "#FF9900"
+    }
   ],
-
   "cta_title": "Tech expertise that moves your business forward",
   "cta_text": "Meet AltheraCode — your strategic technology partner from day one.",
   "cta_button": "Book a Call",
-
-  "faq_title": "Good to know",
   "faq_eyebrow": "Questions & Answers",
+  "faq_title": "Good to know",
   "faq": [
-    { "q": "How much does custom software development cost?", "a": "Cost depends on complexity, features, technology stack, compliance and team size. We offer flexible models such as Time & Material and Dedicated Teams. Contact us for a tailored estimate based on your goals." },
-    { "q": "How long does it take to develop a solution?", "a": "On average: MVP development 3–6 months, AI-powered solutions 4–8 months, enterprise applications 6+ months. We use an agile approach for faster iteration cycles." },
-    { "q": "Will I have a dedicated project manager?", "a": "Yes — every project is assigned a dedicated Project Manager who ensures clear communication, milestone tracking and issue resolution throughout development." },
-    { "q": "What technologies do you use?", "a": "Back-end: Node.js, Python, .NET, Java. Front-end: React, Angular, Vue. Mobile: Flutter, React Native. AI/ML: TensorFlow, PyTorch. Cloud & DevOps: AWS, Azure, Kubernetes, Docker." },
-    { "q": "What engagement models do you offer?", "a": "Time & Material — ideal for evolving projects where flexibility is needed. Dedicated Team — a full-time team working exclusively on your project." },
-    { "q": "Do you provide ongoing support and maintenance?", "a": "Yes — comprehensive post-launch support including performance monitoring, optimizations, feature enhancements and system scaling, tailored to your priorities." }
+    {
+      "q": "How much does custom software development cost?",
+      "a": "Cost depends on complexity, features, technology stack, compliance and team size. We offer flexible models such as Time & Material and Dedicated Teams. Contact us for a tailored estimate based on your goals."
+    },
+    {
+      "q": "How long does it take to develop a solution?",
+      "a": "On average: MVP development 3–6 months, AI-powered solutions 4–8 months, enterprise applications 6+ months. We use an agile approach for faster iteration cycles."
+    },
+    {
+      "q": "Will I have a dedicated project manager?",
+      "a": "Yes — every project is assigned a dedicated Project Manager who ensures clear communication, milestone tracking and issue resolution throughout development."
+    },
+    {
+      "q": "What technologies do you use?",
+      "a": "Back-end: Node.js, Python, .NET, Java. Front-end: React, Angular, Vue. Mobile: Flutter, React Native. AI/ML: TensorFlow, PyTorch. Cloud & DevOps: AWS, Azure, Kubernetes, Docker."
+    },
+    {
+      "q": "What engagement models do you offer?",
+      "a": "Time & Material — ideal for evolving projects where flexibility is needed. Dedicated Team — a full-time team working exclusively on your project."
+    },
+    {
+      "q": "Do you provide ongoing support and maintenance?",
+      "a": "Yes — comprehensive post-launch support including performance monitoring, optimizations, feature enhancements and system scaling, tailored to your priorities."
+    }
   ],
-
   "contact_eyebrow": "Drop Us a Line",
   "contact_title": "Let's build something extraordinary",
   "contact_text": "If you'd like to get in touch, fill in the form and our team will get back to you shortly.",
@@ -108,28 +266,64 @@
   "contact_phone": "+1 (800) 459-1978",
   "contact_whatsapp": "+1 (800) 459-1978",
   "formspree_id": "REPLACE_WITH_YOUR_FORMSPREE_ID",
-
   "footer_tagline": "Full-cycle solution development for startups & established teams — strong engineering, startup-level speed.",
   "socials": [
-    { "label": "Up", "href": "https://www.upwork.com/agencies/1305800533778464768/" },
-    { "label": "in", "href": "https://www.linkedin.com/company/areascode/" },
-    { "label": "Wa", "href": "https://api.whatsapp.com/send/?phone=18004591978" },
-    { "label": "Cl", "href": "https://clutch.co/profile/areas-code#summary" }
+    {
+      "label": "Up",
+      "href": "https://www.upwork.com/agencies/1305800533778464768/"
+    },
+    {
+      "label": "in",
+      "href": "https://www.linkedin.com/company/areascode/"
+    },
+    {
+      "label": "Wa",
+      "href": "https://api.whatsapp.com/send/?phone=18004591978"
+    },
+    {
+      "label": "Cl",
+      "href": "https://clutch.co/profile/areas-code#summary"
+    }
   ],
   "footer_services": [
-    "Software Product Development", "AI Development", "Web & Mobile Development",
-    "AI Integration", "Process Automation", "MVP Development"
+    "Software Product Development",
+    "AI Development",
+    "Web & Mobile Development",
+    "AI Integration",
+    "Process Automation",
+    "MVP Development"
   ],
   "footer_company": [
-    { "label": "Case Studies", "href": "#portfolio" },
-    { "label": "Our Process", "href": "#process" },
-    { "label": "FAQ", "href": "#faq" },
-    { "label": "Contact", "href": "#contact" },
-    { "label": "Blog", "href": "#" }
+    {
+      "label": "Case Studies",
+      "href": "#portfolio"
+    },
+    {
+      "label": "Our Process",
+      "href": "#process"
+    },
+    {
+      "label": "FAQ",
+      "href": "#faq"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    },
+    {
+      "label": "Blog",
+      "href": "#"
+    }
   ],
   "locations": [
-    { "name": "USA HQ", "address": "Old Bridge, NJ 08857, 40 Oak Street" },
-    { "name": "EST office", "address": "Tallinn, Estonia — Vesivärava tn 51-202, 10152" }
+    {
+      "name": "USA HQ",
+      "address": "Old Bridge, NJ 08857, 40 Oak Street"
+    },
+    {
+      "name": "EST office",
+      "address": "Tallinn, Estonia — Vesivärava tn 51-202, 10152"
+    }
   ],
   "copyright": "© 2026 AltheraCode"
 }
